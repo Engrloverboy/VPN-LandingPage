@@ -14,6 +14,15 @@ img {
   width: 100%;
 }
 
+.fixed {
+  position: fixed;
+  padding: 10px 0;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 9999;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -24,7 +33,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
 }
 
 nav img {
@@ -42,12 +50,12 @@ nav .nav-list {
 nav ul {
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  width: 45%;
 }
 
 nav ul li {
   color: #4f5665;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 nav .sign-in-btn {
@@ -81,6 +89,7 @@ nav .hamburger img {
   text-align: center;
   margin: 30px auto;
   max-width: 300px;
+  margin-top: 80px;
 }
 .banner .banner-words h3 {
   font-weight: 500;
@@ -241,6 +250,103 @@ nav .hamburger img {
   color: #fff;
 }
 
+.motor {
+  margin: 50px 0;
+}
+.motor h5 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.motor p {
+  color: #4f5665;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.map {
+  margin: 50px 0;
+}
+
+.sponsor {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.sponsor span img {
+  width: 98px;
+  height: 25px;
+  overflow: scroll;
+}
+.caro-section {
+  margin: 30px 0;
+}
+.caro-section h5 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 20px 0;
+}
+.caro-section p {
+  color: #4f5665;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.testimonial {
+  border: 1px solid #ddd;
+  background-color: white;
+  padding: 15px;
+  width: 200px;
+  height: 110px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.testimonial:hover {
+  border: 2px solid #f53838;
+}
+
+.each-test .img-test img {
+  width: 35px;
+  margin-right: 10px;
+}
+.each-detials {
+  display: flex;
+  justify-content: space-between;
+}
+.img-test {
+  display: flex;
+  align-items: center;
+}
+.img-test p {
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.each-test .test-words {
+  color: #0b132a;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.testimonial .each-test .rate {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial .each-test .rate p {
+  font-size: 10px;
+  margin-right: 7px;
+}
+.testimonial .each-test .rate span {
+  font-size: 10px;
+}
+
 footer {
   background-color: #dde0e4;
 }
@@ -285,21 +391,19 @@ footer .footer .footer-product ul li {
   nav .sign-in-btn {
     display: block;
   }
-  .overflow {
-    overflow: hidden;
-  }
+
   nav .nav-list {
     display: block;
     width: 200px;
     background-color: blue;
     position: absolute;
-    top: 36px;
-    right: -221px;
-    transform: translateX(30px);
+    top: 50px;
+    right: 0px;
+    transform: translateX(300px);
     transition: 0.6s;
   }
   .active {
-    transform: translateX(0);
+    transform: translateX(0) !important;
   }
   nav .nav-list li,
   nav .nav-list .sign-in-btn {
@@ -429,7 +533,7 @@ footer .footer .footer-product ul li {
   .plan-sec .eachplan .mb-2 {
     margin-bottom: 156px;
   }
-  .plan-sec .eachplan .mb-3{
+  .plan-sec .eachplan .mb-3 {
     margin-bottom: 103px;
   }
 }

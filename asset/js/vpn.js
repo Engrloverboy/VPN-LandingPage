@@ -1,7 +1,7 @@
-const collapse = document.querySelector(".nav_list");
+const collapse = document.querySelector(".nav-list");
 const navToggle = document.querySelector(".hamburger");
 
-const Fabulous = () => {
+const DisplayNav = () => {
   collapse.classList.toggle("active");
 };
-navToggle.addEventListener("click", Fabulous);
+navToggle.addEventListener("click", DisplayNav);
