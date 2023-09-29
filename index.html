@@ -15,11 +15,11 @@
 
           <div class="nav-list">
             <ul>
-              <li>About</li>
-              <li>Features</li>
-              <li>Pricing</li>
-              <li>Testimonials</li>
-              <li>Help</li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#help">Help</a></li>
             </ul>
 
             <div class="sign-in-btn">
@@ -36,7 +36,7 @@
       </section>
     </section>
 
-    <section class="banner container">
+    <section id="about" class="banner container">
       <div class="banner-words">
         <h3>Want anything to be easy with <strong>LaslesVPN.</strong></h3>
         <p class="words">
@@ -78,7 +78,7 @@
       </section>
     </section>
 
-    <section class="container illustration">
+    <section id="features" class="container illustration">
       <div class="illus-image">
         <img src="./asset/image/Illustration 2.png" alt="" />
       </div>
@@ -115,7 +115,7 @@
       </div>
     </section>
 
-    <section class="plan-sec">
+    <section id="pricing" class="plan-sec">
       <section class="container">
         <div class="plan-words">
           <h5>Choose Your Plan</h5>
@@ -243,41 +243,104 @@
           <span><img src="./asset/image/Spotify.png" alt="" /></span>
         </section>
       </section>
-
-      <div class="caro-section">
-        <h5>Trusted by Thousands of Happy Customer</h5>
-        <p>
-          These are the stories of our customers who have joined us with great
-          pleasure when using crazy feature.
-        </p>
-      </div>
-      <section class="flex-test container">
-        <section class="testimonial">
-          <div class="each-test">
-            <div class="each-detials">
-              <div class="img-test">
-                <img src="./asset/image/Ellipse 175.png" alt="" />
-                <div class="test-detials">
-                  <h6>Viezh Robert</h6>
-                  <p>Warsaw, Poland</p>
+      <section id="testimonials" class="container">
+        <div class="caro-section">
+          <h5>Trusted by Thousands of Happy Customer</h5>
+          <p>
+            These are the stories of our customers who have joined us with great
+            pleasure when using crazy feature.
+          </p>
+        </div>
+        <section class="flex-test container">
+          <section class="testimonial">
+            <div class="each-test">
+              <div class="each-detials">
+                <div class="img-test">
+                  <img src="./asset/image/Ellipse 175.png" alt="" />
+                  <div class="test-detials">
+                    <h6>Viezh Robert</h6>
+                    <p>Warsaw, Poland</p>
+                  </div>
+                </div>
+                <div class="rate">
+                  <p>4.5</p>
+                  <span>⭐️</span>
                 </div>
               </div>
-              <div class="rate">
-                <p>4.5</p>
-                <span>⭐️</span>
-              </div>
+              <p class="test-words">
+                “Wow... I am very happy to use this VPN, it turned out to be
+                more than my expectations and so far there have been no
+                problems. LaslesVPN always the best”.
+              </p>
             </div>
-            <p class="test-words">
-              “Wow... I am very happy to use this VPN, it turned out to be more
-              than my expectations and so far there have been no problems.
-              LaslesVPN always the best”.
-            </p>
-          </div>
+          </section>
+
+          <section class="testimonial">
+            <div class="each-test">
+              <div class="each-detials">
+                <div class="img-test">
+                  <img src="./asset/image/Ellipse 175 (1).png" alt="" />
+                  <div class="test-detials">
+                    <h6>Yessica Christy</h6>
+                    <p>Shanxi, China</p>
+                  </div>
+                </div>
+                <div class="rate">
+                  <p>4.5</p>
+                  <span>⭐️</span>
+                </div>
+              </div>
+              <p class="test-words">
+                “I like it because I like to travel far and still can connect
+                with high speed.”.
+              </p>
+            </div>
+          </section>
+
+          <section class="testimonial">
+            <div class="each-test">
+              <div class="each-detials">
+                <div class="img-test">
+                  <img src="./asset/image/Ellipse 175 (2).png" alt="" />
+                  <div class="test-detials">
+                    <h6>Kim Young Jou</h6>
+                    <p>Seoul, South Korea</p>
+                  </div>
+                </div>
+                <div class="rate">
+                  <p>4.5</p>
+                  <span>⭐️</span>
+                </div>
+              </div>
+              <p class="test-words">
+                “This is very unusual for my business that currently requires a
+                virtual private network that has high security.”.
+              </p>
+            </div>
+          </section>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </section>
       </section>
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </section>
 
-    <footer>
+    <section class="container">
+      <div class="subs-flex">
+        <div class="subs">
+          <h6>Subscribe Now For Get Special Features</h6>
+          <p>Let's subscribe with us and find the fun.</p>
+        </div>
+        <button>Subscribe Now</button>
+      </div>
+    </section>
+    <footer id="help">
       <section class="container footer">
         <div class="social-media">
           <img src="./asset/image/Logo.png" alt="" />
