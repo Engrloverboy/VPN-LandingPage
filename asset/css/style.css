@@ -464,6 +464,12 @@ footer .footer .footer-product ul li {
   color: #4f5665;
 }
 
+@media (max-width: 600px) {
+  .flex-test {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 750px) {
   .subs-flex button {
     border-radius: 20px;
@@ -472,7 +478,7 @@ footer .footer .footer-product ul li {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   .prev,
   .next {
     display: none;
