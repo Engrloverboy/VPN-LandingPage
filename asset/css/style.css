@@ -390,9 +390,10 @@ nav .hamburger img {
 .next {
   cursor: pointer;
   position: absolute;
-  width: auto;
+  width: 30px;
+  height: 32px;
   margin-top: 160px;
-  padding: 8px;
+  padding: 10px;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
